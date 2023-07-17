@@ -1,0 +1,52 @@
+.container {
+	margin: 10px auto;
+	padding: 10px;
+	max-width: 400px;
+
+	background-color: rgb(10, 84, 87);
+	border-radius: 10px;
+}
+
+.display {
+	padding: 10px;
+	font-size: 32px;
+	text-align: right;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.display.result {
+	color: green;
+}
+
+.display.error {
+	color: red;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.left {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.left .button {
+	flex-basis: 30%;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.button {
+	margin: 5px;
+	font-size: 36px;
+	border-radius: 10px;
+}
